@@ -1,0 +1,18 @@
+# 应用服务 WEB 访问端口
+server:
+  port: 6080
+spring:
+  mail:
+    host: smtp.qq.com
+    port: 465
+    username: 3067586738@qq.com
+    password: tiaijgvsozpzdgab
+    protocol: smtps # SSL协议
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: true
+          auth: true
+        debug: true # 调试日志
+
