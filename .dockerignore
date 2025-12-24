@@ -1,0 +1,15 @@
+# Maven相关
+target/
+.mvn/
+mvnw
+mvnw.cmd
+# Git相关
+.git/
+.gitignore
+# 本地配置
+*.iml
+.idea/
+.vscode/
+# 日志
+logs/
+*.log
