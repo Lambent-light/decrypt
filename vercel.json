@@ -1,12 +1,10 @@
 {
   "version": 2,
   "builds": [
-    {
-      "src": "decrypt-1.0.jar",
-      "use": "@vercel/java"
-    }
+    { "src": "api/index.js", "use": "@vercel/node" },
+    { "src": "target/decrypt-1.0.jar", "use": "@vercel/static" }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "decrypt-1.0.jar" }
+    { "src": "/(.*)", "dest": "/api/index.js" }
   ]
 }
