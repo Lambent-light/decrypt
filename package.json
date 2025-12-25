@@ -1,10 +1,11 @@
 {
   "name": "decrypt-vercel",
   "version": "1.0.0",
-  "dependencies": {
-    "vercel-java": "^1.0.0"
-  },
   "scripts": {
-    "build": "cd decrypt && mvn package -DskipTests"
+    "build": "cd decrypt && mvn package -DskipTests",
+    "start": "java -jar decrypt/target/decrypt-1.0.jar"
+  },
+  "dependencies": {
+    "http-proxy": "^1.18.1"
   }
 }
