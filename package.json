@@ -1,0 +1,10 @@
+{
+  "name": "decrypt-vercel",
+  "version": "1.0.0",
+  "dependencies": {
+    "vercel-java": "^1.0.0"
+  },
+  "scripts": {
+    "build": "cd decrypt && mvn package -DskipTests"
+  }
+}
